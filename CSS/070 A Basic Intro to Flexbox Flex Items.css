@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  background-color: #2272f4;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item{
+  background-color: #ffffff;
+  padding: 30px;
+  margin: 30px;
+  color: #00;
+  font-size: 40px;
+  /* ------------------------ Start of lec 70 ------------------------ */
+  
+  /* can be used for set of item as well as individual items */
+  flex-grow: 1;
+  /* here 1 doesn't have any fix value it is used in comparision */
+}
+
+.i2{
+  height: 200px;
+  /* ------------------------ Start of lec 70 ------------------------ */
+
+  flex-basis: 17.5%;
+  /* here the width of i2 is set as 20% of container  */
+  /* instead of % px(px are permanant and only decreases when no space is left) can also be used */
+  /* the effect of flex-grow in .item will be nullified */
+  /* the initial value of flex-basis is auto  */
+  flex-shrink: 0;
+  /* 0 means it won't be able to shrink */
+  /* default value is 1 i.e. able to shrink the case of 2nd comment */
+
+
+   /* *************IMPORTANT************** */
+  /* flex property can also be used as */
+  /* flex: value(grow) value(shrink) value(basis); */
+  /* *************IMPORTANT************** */
+
+
+}
+
+.i4{
+  /* ------------------------ Start of lec 70 ------------------------ */
+
+  align-self: flex-end;
+  /* flex start arranging item from lowest order to highest */
+  /* The initial value of every item 0 */
+  /* Since lowest was zero the i4 with -1 will be aligned first  */
+  order: -1;
+}
+
+.i3{
+  /* ------------------------ Start of lec 70 ------------------------ */
+  /* Since the highest was 0 the i3 will be aligned last */
+  order: 1;
+  flex-grow: 4;
+}

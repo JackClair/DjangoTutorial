@@ -1,0 +1,39 @@
+h3{
+  text-align: center;
+  font-family: 'ZCOOL KuaiLe', cursive;
+  border: 5px solid red;
+  width: 70%;
+  margin: auto;
+  padding-top: 25px;
+
+}
+
+.art{
+  margin-top: 100px
+}
+
+td{
+  height: 400px;
+  width: 1000px;
+  border: 10px solid white;
+}
+
+#one{
+  background-color: #D4E4BC;
+}
+
+#two{
+  background-color: #96ACB7;
+}
+
+#three{
+  background-color: #36558F;
+}
+
+#four{
+  background-color: #40376E;
+}
+
+#five{
+  background-color: #48233C;
+}

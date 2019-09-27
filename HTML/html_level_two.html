@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>This is level Two</title>
+  </head>
+  <body>
+    <!-- table can also be a href like image-->
+    <table border="1">
+      <thead>
+        <th>Name</th>
+        <th>Roll no</th>
+        <th>Marks</th>
+      </thead>
+      <tr>
+        <td>Jay</td>
+        <td>52</td>
+        <td>01</td>
+      </tr>
+      <tr>
+        <td>Jawwad</td>
+        <td>45</td>
+        <td>55</td>
+      </tr>
+    </table>
+    <br>
+    <br>
+    <table border="1">
+      <thead>
+        <th>Country Name</th>
+        <th>Country Flag</th>
+        <th>GDP (millions of USD)</th>
+      </thead>
+      <tr>
+        <td>United States</td>
+        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/190px-Flag_of_the_United_States.svg.png" alt="Uh oh! Missing Picture File"></td>
+        <td>18,561,930</td>
+      </tr>
+      <tr>
+        <td>India</td>
+        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/150px-Flag_of_India.svg.png" alt="Ops!!"></td>
+        <td>2,250,990</td>
+      </tr>
+    </table>
+    <form>
+      <!--More types of inputs can be found on w3schools  -->
+      <h1>Login In</h1>
+      <h2>Email</h2>
+      <input type="email" name="useremail" value="Here">
+      <h2>Password</h2>
+      <input type="password" name="password" value="">
+      <h2>Query</h2>
+      <input type="text" name="Box" value="">
+      <h2>Choose Color !!!</h2>
+      <input type="color" name="" value="Color">
+      <input type="submit" >
+    </form>
+    <form action="http://www.google.com" method="get">
+
+      <label>
+         EMAIL:
+         <input type="email" name="useremail" value="Email Here">
+      </label>
+
+
+      <label >
+        PASSWORD:
+      <input type="password" name="password" placeholder="Password">
+      </label>
+
+      <!-- Validation -->
+      <!--  Usually do a lot more validation with Backend-->
+      <!--  Use the attribute: required to require input-->
+
+      <label for="userinput">TEXT:</label>
+
+
+      <input type="text" id="userinput"name="input" placeholder="Enter Text Here" required>
+
+      <input type="submit" >
+
+    </form>
+        <!-- For label and more input method visit part 6 of TB -->
+  </body>
+</html>

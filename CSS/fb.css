@@ -1,0 +1,97 @@
+.body__2{
+  background-color: #e3e9ef;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+#brand{
+  padding-left: 27.5%;
+  color: #83878c;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.nav-bar{
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  height: 3.2rem;
+  width: 100%;
+  padding-top: 15px;
+  border: .75px solid #adb1b5;
+  box-shadow: .5px .5px rgba(0,0,0,.3);
+}
+
+.about{
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 1.5rem;
+  padding-bottom: 1.15rem;
+  color: #83878c;
+}
+
+#drop{
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 35rem;
+  padding-bottom: 1.15rem;
+  color: #83878c;
+}
+
+.login-details {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  max-width: 44%;
+  margin: .8em auto;
+  border: 0.8px solid #c4c9d1;
+}
+
+.contain{
+  padding-top: 2rem;
+  padding-left: 7.5rem;
+}
+
+.login-sign{
+  font-size: 1.55rem;
+  font-weight: bold;
+}
+
+.details__form{
+  display: flex;
+  flex-direction: column;
+}
+
+::-webkit-input-placeholder{
+  font-size: 14px;
+}
+
+.details__input{
+  /* padding: .8rem; */
+  margin: .5rem 0;
+  height: 1.6rem;
+  width: 290px;
+}
+
+.submit{
+  height: 1.6rem;
+  width: 4.5rem;
+  border-radius: 10px;
+  padding-top: 20px;
+  font-size: 14px;
+  background-color: lightblue;
+}
+
+.checkbox{
+  margin-top: 1rem;
+  margin-right: .5rem;
+}
+
+.font{
+  font-size: 14px;
+}
+
+.extra{
+  background-color: #eaeff7;
+}

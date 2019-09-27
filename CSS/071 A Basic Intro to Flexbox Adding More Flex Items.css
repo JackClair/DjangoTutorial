@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  background-color: #2272f4;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* ---------------------- lec 71 ----------------------- */
+  flex-wrap: wrap;
+  height: 1000px;
+  /* align content align the entire row across cross axis */
+  align-content: flex-start;
+}
+
+.item{
+  background-color: #ffffff;
+  padding: 30px;
+  margin: 5px;
+  color: #00;
+  font-size: 40px;
+  flex-grow: 1;
+}
+
+.i2{
+  height: 200px;
+  flex-basis: 17.5%;
+  flex-shrink: 0;
+}
+
+.i4{
+  order: -1;
+}
+
+.i3{
+  flex-grow: 4;
+  order: 1;
+}

@@ -1,0 +1,164 @@
+/* To declare css variable(css custom property) */
+:root{
+  --color-primary: #eb2f64;
+  --color-primary-light: #ff3366;
+  --color-primary-dark: #BA265d;
+  --color-grey-light-1: #faf9f9;
+  --color-grey-light-2: #f4f2f2;
+  --color-grey-light-3: #f0eeee;
+  --color-grey-light-4: #ccc;
+  --color-grey-dark-1: #333;
+  --color-grey-dark-2: #777;
+  --color-grey-dark-3: #999;
+
+}
+
+body{
+  background-image:linear-gradient(to bottom right,var(--color-primary),var(--color-primary-light),var(--color-primary-dark));
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-grey-dark-2);
+}
+
+.container{
+  min-height: 50rem;
+  max-width: 75rem;           /*1rem = 16px */
+  /* To form a centre container */
+  margin: 5em auto;
+  background-color: var(--color-grey-light-1);
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.4);
+}
+
+.header{
+  height: 4.4rem;
+  background-color: #fff;   /*White*/
+  border-bottom: var(--color-grey-light-2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar{
+  background-color: var(--color-grey-dark-1);
+  flex: 0 0 18%;
+}
+
+.hotel-view{
+  background-color: #fff;
+  flex: 1;
+}
+
+.content{
+  display: flex;
+}
+
+/* ////////////////////////////////////////
+// LOGO */
+.logo{
+  height: 2rem;
+  margin-left: 1.85rem;
+}
+
+/* //////////////////////////////////////// */
+/* // SEARCH */
+
+
+.search{
+flex: 0 0 40%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.search__input{
+  font-family: inherit;
+  font-size: inherit;
+  background-color: var(--color-grey-light-2);
+  border: none;
+  color: inherit;
+  padding: .4rem 1.25rem;
+  border-radius: 100px;
+  width: 90%;
+  transition: all .2s;
+  /* To virtually overlap search icon with text bar */
+  margin-right: -2.15rem;
+}
+
+.search__input:focus{
+  outline: none;
+  width: 100%;
+  background-color: var(--color-grey-light-3);
+}
+
+.search__button{
+    background-color: var(--color-grey-light-2);
+    border: none;
+}
+
+.search__button:focus{
+  outline: none;
+}
+
+.search__button:active{
+  transform: translateY(2px);
+}
+
+.search__icon{
+  height: 1.25rem;
+  width: 1.25rem;
+  fill: var(--color-grey-dark-3);
+}
+
+.search__input::webkit-input-placeholder{
+  font weight:100;
+  color: var(--color-grey-light-3);
+}
+
+/* ////////////////////////////////////////
+// USER NAVIGATION */
+
+.user-nav{
+  display: flex;
+  align-items: center;
+  margin-right: 3px;
+  align-self: stretch;
+  background-color: greenyellow;
+}
+
+/* For user-nav classes first level of children */
+.user-nav > *{
+  padding: 0 20px;
+  /* Bcoz initially due to text their will txt select type of cursor
+  for icon pointing type of cursor we will use cursor: pointer */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.user-nav > *:hover{
+  background-color: var(--color-grey-light-2);
+}
+
+.user-nav__icon{
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.user-nav__user-photo{
+  height: 2.34em;
+  width: 2.34rem;
+  border-radius: 50%;
+}
+
+.user-nav__icon-box{
+
+}
+/* ////////////////////////////////////////
+// HOTEL VIEW  */
+
+.hotel-view{
+  background-color: blue;
+}

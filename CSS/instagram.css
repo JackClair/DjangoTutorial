@@ -1,0 +1,95 @@
+.body__2{
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-weight: 400;
+  line-height: 1.6;
+  background-color: #fcf9f9;
+}
+
+#insta__head{
+  font-family: 'Pacifico',cursive;
+}
+
+.content{
+  display: flex;
+  min-height: 40rem;
+  max-width: 50rem;
+  margin: 4.65rem auto;
+  align-items: flex-end;
+  background-color: #fcf9f9;
+}
+
+.pic{
+  margin: 1.8rem;
+  align-self: flex-end;
+}
+
+.image {
+  height: 40rem;
+  flex: 0 0 25rem;
+}
+
+.container{
+    background-color: #fff;
+}
+
+.login {
+  text-align:center;
+  align-self:center;
+}
+
+span{
+  padding-top: 3em;
+
+
+#intro{
+  font-size: 1.25rem;
+  color: grey;
+}
+
+.fb{
+  height: 20px;
+  width: 20px;
+}
+
+.login >*{
+  padding: 3rem 3rem;
+}
+
+.btn__material{
+  padding: 0 2rem
+}
+
+hr{
+  max-width:5rem;
+  color: grey;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: #827e7e;
+  padding: 1em;
+  font-size: 12px;
+}
+/* -------------------------IMP------------------------------- */
+/* How to change property of input bootstrap  */
+/* #gf::-webkit-input-placeholder {
+  color: red;
+  padding: 1em;
+  font-size: 12px;
+} */
+
+.input__box{
+  height: 38px;
+  width:20rem;
+  background-color: #f7f9f9;
+  border: 0.5px solid #babbbc;
+  border-radius: 3.5px;
+  margin: 2.5px;
+
+}
+
+.having{
+  /* padding: 2rem;
+  border: 2rem; */
+}
